@@ -9,8 +9,7 @@ from sklearn.ensemble import GradientBoostingClassifier as GBC
 from sklearn.ensemble import RandomForestClassifier as RF
 from sklearn.neighbors import KNeighborsClassifier as KNN
 from sklearn.linear_model import SGDClassifier as SGDC
-import tkinter as tk
-from tkinter.filedialog import askopenfilename
+
 import pandas.core.algorithms as algos
 
 
