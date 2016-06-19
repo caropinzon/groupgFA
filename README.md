@@ -4,9 +4,12 @@ Group G Financial Analytics MBD 2016
 
 ##Welcome to Group G's Financial Analytics Innovation and beyond in Big Data System for Model Development System.
 
-We have built 5 distinct algorithms to harness and wrangle two different datasets (dev.csv or MBD_FA.csv. There is a selection of both human-assisted step-by-step guides to give you control when running the algorithms, and other purely automatic algorithms.
+We have built 5 distinct algorithms to harness and wrangle two different datasets (dev.csv or MBD_FA2.csv). There is a selection of both human-assisted step-by-step guides to give you control when running the algorithms, and other purely automatic algorithms.
 
-For each of the different *functions* you only have to select what dataset to run directly from your computer 
+For each of the different *algorithms* you only have to call them with a dataframe as the input. For example, you can perform the Automated Data Cleaning algorithm by typing  groupgFA.autoClean(df) with a dataframe that you select.
+
+
+
 A.1) Automated Data Cleaning
 autoClean
 
