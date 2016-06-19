@@ -31,6 +31,7 @@ A.1) Automated Data Cleaning **autoClean(df)**
 A.4.1) Automated Dummy Creation and Transformation with Automated Supervised Binning **autoVariableCreate(df)**
   - Creates Variables from all possible ratios, sums, multiplications, and differences between two variables from a subset of variables with a range of atleast 5. 
   - Binning and Dummy Variable Creation
+  - Exports csv file with new variables
 
 
 A.6) Automated method comparison and choosing **autoselectModel(df)**
