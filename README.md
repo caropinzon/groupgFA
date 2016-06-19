@@ -6,8 +6,8 @@ Welcome to Group G's Financial Analytics Innovation and beyond in Big Data Syste
 
 We have built 5 distinct algorithms to harness and wrangle two different datasets (dev.csv or MBD_FA2.csv). There is a selection of both human-assisted step-by-step guides to give you control when running the algorithms, and other purely automatic algorithms.
 
-###Installation
-To install our package, just paste the folloing line in your terminal: **sudo pip3 install groupgfa**
+###Installation & Setting Up
+To install our package, just paste the folloing line in your terminal: **sudo pip3 install groupgfa**. Afterward you can import our package to any of your python files by adding th following line to your code: **install groupgfa**
 
 ###Implementation
 For each of the different **algorithms** you only have to call them with a dataframe as the input. For example, you can perform the Automated Data Cleaning algorithm by typing groupgFA.autoClean(df) with a dataframe that you select.
