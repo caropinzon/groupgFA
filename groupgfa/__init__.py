@@ -119,7 +119,6 @@ class humanClean:
 
         clean = pd.concat([dfdropped, dfc], axis=1)
         clean.to_csv("cleaneddataset.csv")
-        return clean
 
 class autoClean:
     def __init__(self, df):
@@ -166,7 +165,6 @@ class autoClean:
 
         clean = pd.concat([dfdropped, dfc], axis=1)
         clean.to_csv("autocleaneddataset.csv")
-        return clean
 
 class humanVariableCreate:
     def __init__(self, df):
